@@ -1,8 +1,11 @@
-var n= require('./module1.js')
-console.log(n.Name(message));
+module.exports.Name=(name)=>{
+    return name;
+}
 
-var g= require('./module2.js')
-console.log(g.Gender(message));
+module.exports.Gender=(gender)=>{
+    return gender;
+}
 
-var d= require('./module3.js');
-console.log(d.DOB(message));
+module.exports.DOB=(dob)=>{
+    return dob;
+}
